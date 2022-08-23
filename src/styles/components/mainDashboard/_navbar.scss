@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px;
+
+  .reset-button {
+    background-color: transparent;
+    color: $primary-5;
+    font-weight: bold;
+    border: none;
+    font-size: $font-xxs * 1.2;  
+    width: 100px;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .logo {
+    font-size: $font-xxs * 0.7;
+    font-weight: bold;
+  }
+
+  .undo-button {
+    background-color: $primary-6;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    color: $neutral-11;
+    font-weight: bold;
+    border: none;
+    font-size: $font-xxs * 1.2;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 10px;
+
+  }
+}

@@ -1,0 +1,13 @@
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+
+  .vs {
+    font-size: $font-xxl * 2;
+    color: $neutral-4;
+    padding-top: 50px;
+  }
+}

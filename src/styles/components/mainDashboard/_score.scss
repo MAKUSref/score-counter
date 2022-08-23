@@ -1,0 +1,33 @@
+.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  height: 80%;
+
+  .big-points {
+    border: 3.5px solid $primary-9;
+    font-size: $font-s *0.9;
+    color: $neutral-5;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+  }
+
+  .small-points {
+    display: flex;
+    flex-direction: row;
+    width: 225px;
+    height: 170px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: $primary-10;
+    box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.15);
+  }
+
+}
